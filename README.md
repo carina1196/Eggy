@@ -6,4 +6,4 @@ Simply select an egg of your choice and start the timer.
 
 Please note that this timer is for fridge cold eggs!
 
-Boil your water first and lower the eggs into the boiling water and start your timer!
+Boil your water first and lower the eggs into the boiling water and start your
