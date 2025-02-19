@@ -6,8 +6,12 @@ function setTimer(img) {
     const x = img.id;
 
     if (timerElement.innerText != '00:00'){
-        clearInterval(countdown)
-        document.getElementById('stopBtn').innerText = 'Stop'
+        try {
+            clearInterval(countdown)
+        } catch (e) {
+        } finally {
+            document.getElementById('stopBtn').innerText = 'Stop'
+        }
     }
     duration = eggTiming[x]
     const minutes = Math.floor(duration/60)

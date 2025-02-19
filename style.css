@@ -40,3 +40,33 @@ h1 {
     text-align: center;
     border-radius: 40px;
 }
+
+@media only screen and (max-width: 600px){
+    h1 {
+        font-size: 300%;
+        text-align: center;
+    }
+
+    .egg-image {
+        width: 100px;
+        height: 150px;
+        
+    }
+
+    .egg-image +  p {
+        font-family: "Comic Sans MS", "Chalkboard", sans-serif;
+        font-size: large;
+    }
+
+    #timer {
+        width: fit-content;
+        padding: 0 50px;
+        margin: 50px auto;
+        background-color: #fdf8e1;
+        font-family: "Comic Sans MS", "Chalkboard", sans-serif;
+        font-size: 100px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+}
