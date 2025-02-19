@@ -1,0 +1,42 @@
+body {
+    background-color: #fcefb4;
+}
+
+button {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 500%;
+    margin: 50px 0;
+}
+
+.egg-image {
+    width: 180px;
+    height: 250px;
+    
+}
+
+.egg-image +  p {
+    font-family: cursive;
+    font-size: x-large ;
+    font-weight: bold;
+}
+
+.timer-container{
+    text-align: center;
+}
+
+#timer {
+    width: fit-content;
+    padding: 0 50px;
+    margin: 50px auto;
+    background-color: #fdf8e1;
+    font-family: cursive;
+    font-size: 150px;
+    text-align: center;
+    border-radius: 40px;
+}
