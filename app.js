@@ -1,3 +1,8 @@
+window.onload = function() {
+    const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    modal.show();  // Show the modal
+    };
+
 const eggTiming = {"runny": 300, "soft": 480, "hard":600}
 
 function setTimer(img) {
@@ -51,7 +56,7 @@ function startTimer() {
     countdown = 
         setInterval(() => {
             if (timeLeft == 0) {
-                document.getElementById("timer").textContent = '00:00'
+                document.getElementById("timer").textContent = 'Time\'s up!'
             } else {
                 timeLeft--;
                 updateTimer(timeLeft)
